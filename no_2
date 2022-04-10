@@ -1,5 +1,5 @@
 #a
-dbinom(x = 4, size = 200, prob = 0.2)
+dbinom(x = 4, size = 20, prob = 0.2)
 
 #b
 library(dplyr)
@@ -22,3 +22,5 @@ data.frame(sembuh = 0:20, prob = dbinom(x = 0:20, size = 20, prob = 0.2)) %>%
        y = "peluang")
        
 #c 
+20 * 0.2 * (1 - 0.2)
+
