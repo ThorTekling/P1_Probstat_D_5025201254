@@ -1,0 +1,11 @@
+p = 0.20
+n = 3
+
+#a
+dgeom(x = n, prob = p)
+
+#b
+mean(rgeom(n = 10000, prob = p) == 3)
+
+#c
+#
