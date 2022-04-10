@@ -1,0 +1,6 @@
+#a
+dpois(x = 4.5, lambda = 1) +
+  dpois(x = 1, lambda = 1) +
+  dpois(x = 6, lambda = 6)
+  
+ 
